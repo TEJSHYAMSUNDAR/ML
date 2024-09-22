@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 # Load the pre-trained model
-model_filename = "C:/Users/nirma/Downloads/archive (1)/logistic_regression_medical_conditions_model.pkl"
+model_filename = "logistic_regression_medical_conditions_model.pkl"
 model = joblib.load(model_filename)
 
 # Load scaler (ensure you save and load the same scaler used for training)
